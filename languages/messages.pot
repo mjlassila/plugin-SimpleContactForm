@@ -1,0 +1,505 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: controllers/IndexController.php:17 controllers/IndexController.php:18
+#: controllers/IndexController.php:19 controllers/IndexController.php:36
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-20 18:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: views/public/index/thankyou.php:3 config_form.php:14
+#: SimpleContactFormPlugin.php:47 SimpleContactFormPlugin.php:57
+#: SimpleContactFormPlugin.php:113
+msgid "simple_contact_form_thankyou_page_title"
+msgstr ""
+
+#: views/public/index/thankyou.php:4 config_form.php:15
+#: SimpleContactFormPlugin.php:48 SimpleContactFormPlugin.php:114
+msgid "simple_contact_form_thankyou_page_message"
+msgstr ""
+
+#: views/public/index/index.php:3 config_form.php:12
+#: SimpleContactFormPlugin.php:45 SimpleContactFormPlugin.php:55
+#: SimpleContactFormPlugin.php:111 SimpleContactFormPlugin.php:129
+msgid "simple_contact_form_contact_page_title"
+msgstr ""
+
+#: views/public/index/index.php:6 config_form.php:13
+#: SimpleContactFormPlugin.php:46 SimpleContactFormPlugin.php:56
+#: SimpleContactFormPlugin.php:112
+msgid "simple_contact_form_contact_page_instructions"
+msgstr ""
+
+#: views/public/index/index.php:12 views/public/index/index.php:14
+#: tests/cases/Test.php:46 controllers/IndexController.php:17
+#: controllers/IndexController.php:26 controllers/IndexController.php:39
+msgid "name"
+msgstr ""
+
+#: views/public/index/index.php:12
+msgid "Your Name: "
+msgstr ""
+
+#: views/public/index/index.php:14 views/public/index/index.php:21
+#: views/public/index/index.php:28 config_form.php:60 config_form.php:97
+msgid "class"
+msgstr ""
+
+#: views/public/index/index.php:14 views/public/index/index.php:21
+#: views/public/index/index.php:28
+msgid "textinput"
+msgstr ""
+
+#: views/public/index/index.php:19 views/public/index/index.php:21
+#: tests/cases/Test.php:47 controllers/IndexController.php:18
+#: controllers/IndexController.php:26 controllers/IndexController.php:39
+#: controllers/IndexController.php:50
+msgid "email"
+msgstr ""
+
+#: views/public/index/index.php:19
+msgid "Your Email: "
+msgstr ""
+
+#: views/public/index/index.php:26 views/public/index/index.php:28
+#: tests/cases/Test.php:48 controllers/IndexController.php:19
+#: controllers/IndexController.php:26 controllers/IndexController.php:39
+#: controllers/IndexController.php:49
+msgid "message"
+msgstr ""
+
+#: views/public/index/index.php:26
+msgid "Your Message: "
+msgstr ""
+
+#: views/public/index/index.php:28 config_form.php:60 config_form.php:97
+msgid "rows"
+msgstr ""
+
+#: views/public/index/index.php:28 config_form.php:60 config_form.php:97
+msgid "10"
+msgstr ""
+
+#: views/public/index/index.php:39
+msgid "send"
+msgstr ""
+
+#: views/public/index/index.php:39
+msgid "Send Message"
+msgstr ""
+
+#: config_form.php:1
+msgid "vendor/tinymce/tinymce.min"
+msgstr ""
+
+#: config_form.php:11 SimpleContactFormPlugin.php:44
+#: SimpleContactFormPlugin.php:54 SimpleContactFormPlugin.php:110
+#: controllers/IndexController.php:75
+msgid "simple_contact_form_forward_to_email"
+msgstr ""
+
+#: config_form.php:16 SimpleContactFormPlugin.php:49
+#: SimpleContactFormPlugin.php:58 SimpleContactFormPlugin.php:115
+#: SimpleContactFormPlugin.php:130
+msgid "simple_contact_form_add_to_main_navigation"
+msgstr ""
+
+#: config_form.php:23
+msgid "settings/edit-security#fieldset-captcha"
+msgstr ""
+
+#: config_form.php:28 config_form.php:36 SimpleContactFormPlugin.php:110
+msgid "forward_to_email"
+msgstr ""
+
+#: config_form.php:28
+msgid "Forward-To Email"
+msgstr ""
+
+#: config_form.php:42 config_form.php:48 SimpleContactFormPlugin.php:111
+msgid "contact_page_title"
+msgstr ""
+
+#: config_form.php:42
+msgid "Contact Page Title"
+msgstr ""
+
+#: config_form.php:54 config_form.php:60 SimpleContactFormPlugin.php:112
+msgid "contact_page_instructions"
+msgstr ""
+
+#: config_form.php:54
+msgid "Instructions for Contact Page"
+msgstr ""
+
+#: config_form.php:60 config_form.php:97
+msgid "cols"
+msgstr ""
+
+#: config_form.php:60 config_form.php:97
+msgid "60"
+msgstr ""
+
+#: config_form.php:60 config_form.php:97
+msgid "html-editor"
+msgstr ""
+
+#: config_form.php:66 config_form.php:73 SimpleContactFormPlugin.php:115
+msgid "add_to_main_navigation"
+msgstr ""
+
+#: config_form.php:66
+msgid "Add to Main Navigation"
+msgstr ""
+
+#: config_form.php:73
+msgid "1"
+msgstr ""
+
+#: config_form.php:73
+msgid "0"
+msgstr ""
+
+#: config_form.php:79 config_form.php:85 SimpleContactFormPlugin.php:113
+msgid "thankyou_page_title"
+msgstr ""
+
+#: config_form.php:79
+msgid "Thank You Page Title"
+msgstr ""
+
+#: config_form.php:91 config_form.php:97 SimpleContactFormPlugin.php:114
+msgid "thankyou_page_message"
+msgstr ""
+
+#: config_form.php:91
+msgid "Thank You Page Message"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:16
+msgid "SIMPLE_CONTACT_FORM_PAGE_PATH"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:16
+msgid "contact/"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:17
+msgid "SIMPLE_CONTACT_FORM_CONTACT_PAGE_TITLE"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:17
+msgid "Contact Us"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:18
+msgid "SIMPLE_CONTACT_FORM_CONTACT_PAGE_INSTRUCTIONS"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:18
+msgid "Please send us your comments and suggestions."
+msgstr ""
+
+#: SimpleContactFormPlugin.php:19
+msgid "SIMPLE_CONTACT_FORM_THANKYOU_PAGE_TITLE"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:19
+msgid "Thank You For Your Feedback"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:20
+msgid "SIMPLE_CONTACT_FORM_THANKYOU_PAGE_MESSAGE"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:20
+msgid "We appreciate your comments and suggestions."
+msgstr ""
+
+#: SimpleContactFormPlugin.php:21
+msgid "SIMPLE_CONTACT_FORM_ADD_TO_MAIN_NAVIGATION"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:28
+#: tests/SimpleContactForm_IntegrationHelper.php:25
+msgid "install"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:29
+#: tests/SimpleContactForm_IntegrationHelper.php:26
+msgid "uninstall"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:30
+msgid "upgrade"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:31
+msgid "initialize"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:32
+#: tests/SimpleContactForm_IntegrationHelper.php:27
+msgid "define_routes"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:33
+#: tests/SimpleContactForm_IntegrationHelper.php:28
+msgid "config_form"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:34
+#: tests/SimpleContactForm_IntegrationHelper.php:29
+msgid "config"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:39
+#: tests/SimpleContactForm_IntegrationHelper.php:32
+msgid "public_navigation_main"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:44 tests/cases/Test.php:57
+#: tests/cases/Test.php:66
+msgid "administrator_email"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:63
+msgid "old_version"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:64
+msgid "1.0"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:64 SimpleContactFormPlugin.php:69
+msgid "<"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:65
+msgid "simple_contact_form_reply_from_email"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:66 tests/cases/Test.php:59
+msgid "simple_contact_form_user_notification_email_subject"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:67 tests/cases/Test.php:60
+msgid "simple_contact_form_user_notification_email_message_header"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:69
+msgid "1.1"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:70 tests/cases/Test.php:67
+msgid "simple_contact_form_admin_notification_email_subject"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:71 tests/cases/Test.php:68
+msgid "simple_contact_form_admin_notification_email_message_header"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:80
+msgid "router"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:82 SimpleContactFormPlugin.php:134
+msgid "simple_contact_form_form"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:85 SimpleContactFormPlugin.php:94
+msgid "module"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:85 SimpleContactFormPlugin.php:94
+msgid "simple-contact-form"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:90 controllers/IndexController.php:27
+msgid "simple_contact_form_thankyou"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:92 SimpleContactFormPlugin.php:96
+msgid "thankyou"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:95
+msgid "controller"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:95
+msgid "index"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:96
+msgid "action"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:104
+msgid "config_form.php"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:109 tests/cases/Test.php:51
+msgid "post"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:124
+msgid "/languages"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:133
+msgid "label"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:134
+msgid "uri"
+msgstr ""
+
+#: SimpleContactFormPlugin.php:135
+msgid "visible"
+msgstr ""
+
+#: tests/AllTests.php:9
+msgid "SimpleContactForm_IntegrationHelper.php"
+msgstr ""
+
+#: tests/AllTests.php:21
+msgid "SimpleContactForm Tests"
+msgstr ""
+
+#: tests/AllTests.php:23
+msgid "/cases"
+msgstr ""
+
+#: tests/SimpleContactForm_IntegrationHelper.php:10
+msgid "SimpleContactForm"
+msgstr ""
+
+#: tests/SimpleContactForm_IntegrationHelper.php:25
+msgid "simple_contact_form_install"
+msgstr ""
+
+#: tests/SimpleContactForm_IntegrationHelper.php:26
+msgid "simple_contact_form_uninstall"
+msgstr ""
+
+#: tests/SimpleContactForm_IntegrationHelper.php:27
+msgid "simple_contact_form_define_routes"
+msgstr ""
+
+#: tests/SimpleContactForm_IntegrationHelper.php:28
+msgid "simple_contact_form_config_form"
+msgstr ""
+
+#: tests/SimpleContactForm_IntegrationHelper.php:29
+msgid "simple_contact_form_config"
+msgstr ""
+
+#: tests/SimpleContactForm_IntegrationHelper.php:32
+msgid "simple_contact_form_public_navigation_main"
+msgstr ""
+
+#: tests/cases/Test.php:40 tests/cases/Test.php:41
+msgid "test_config"
+msgstr ""
+
+#: tests/cases/Test.php:43
+msgid "Jim Safley"
+msgstr ""
+
+#: tests/cases/Test.php:44
+msgid "Lorem ipsum dolor sit amet."
+msgstr ""
+
+#: tests/cases/Test.php:52
+msgid "contact"
+msgstr ""
+
+#: tests/cases/Test.php:57 tests/cases/Test.php:65
+msgid "From: "
+msgstr ""
+
+#: tests/cases/Test.php:58 tests/cases/Test.php:66
+msgid "To: "
+msgstr ""
+
+#: tests/cases/Test.php:58 tests/cases/Test.php:65
+msgid " <"
+msgstr ""
+
+#: tests/cases/Test.php:58 tests/cases/Test.php:65
+msgid ">"
+msgstr ""
+
+#: tests/cases/Test.php:59 tests/cases/Test.php:67
+msgid "Subject: "
+msgstr ""
+
+#: tests/cases/Test.php:59 tests/cases/Test.php:67
+#: controllers/IndexController.php:81
+msgid "site_title"
+msgstr ""
+
+#: tests/cases/Test.php:59 tests/cases/Test.php:67
+#: controllers/IndexController.php:81
+msgid " - "
+msgstr ""
+
+#: tests/cases/Test.php:72
+msgid "/contact/thankyou"
+msgstr ""
+
+#: controllers/IndexController.php:39
+msgid "captcha"
+msgstr ""
+
+#: controllers/IndexController.php:52
+msgid "foo"
+msgstr ""
+
+#: controllers/IndexController.php:53
+msgid "Your CAPTCHA submission was invalid, please try again."
+msgstr ""
+
+#: controllers/IndexController.php:55
+msgid "EmailAddress"
+msgstr ""
+
+#: controllers/IndexController.php:56
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: controllers/IndexController.php:59
+msgid "Please enter a message."
+msgstr ""
+
+#: controllers/IndexController.php:77
+msgid "UTF-8"
+msgstr ""
+
+#: controllers/IndexController.php:78
+#, php-format
+msgid "%s <%s> sent the following message:"
+msgstr ""
+
+#: controllers/IndexController.php:78
+msgid ""
+"\n"
+"\n"
+msgstr ""
+
+#: controllers/IndexController.php:81
+msgid "A User Has Contacted You"
+msgstr ""

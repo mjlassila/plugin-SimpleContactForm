@@ -39,7 +39,7 @@ $view = get_view();
 
 <div class="field">
     <div class="two columns alpha">
-        <?php echo $view->formLabel('contact_page_title', 'Contact Page Title'); ?>
+        <?php echo $view->formLabel('contact_page_title', __('Contact Page Title')); ?>
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
@@ -51,7 +51,7 @@ $view = get_view();
 
 <div class="field">
     <div class="two columns alpha">
-        <?php echo $view->formLabel('contact_page_instructions', 'Instructions for Contact Page'); ?>
+        <?php echo $view->formLabel('contact_page_instructions', __('Instructions for Contact Page')); ?>
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
@@ -63,7 +63,7 @@ $view = get_view();
 
 <div class="field">
     <div class="two columns alpha">
-        <?php echo $view->formLabel('add_to_main_navigation', 'Add to Main Navigation'); ?>
+        <?php echo $view->formLabel('add_to_main_navigation', __('Add to Main Navigation')); ?>
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
@@ -76,7 +76,7 @@ $view = get_view();
 
 <div class="field">
     <div class="two columns alpha">
-        <?php echo $view->formLabel('thankyou_page_title', 'Thank You Page Title'); ?>
+        <?php echo $view->formLabel('thankyou_page_title', __('Thank You Page Title')); ?>
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
@@ -88,7 +88,7 @@ $view = get_view();
 
 <div class="field">
     <div class="two columns alpha">
-        <?php echo $view->formLabel('thankyou_page_message', 'Thank You Page Message'); ?>
+        <?php echo $view->formLabel('thankyou_page_message', __('Thank You Page Message')); ?>
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">

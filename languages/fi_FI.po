@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Omeka\n"
 "Report-Msgid-Bugs-To: https://github.com/omeka/plugin-SimpleContactForm/issues\n"
 "POT-Creation-Date: 2019-09-20 12:49+0200\n"
-"PO-Revision-Date: 2019-09-20 13:37+0200\n"
+"PO-Revision-Date: 2019-09-21 18:54+0300\n"
 "Last-Translator: Matti Lassila <matti.lassila@gmail.com>\n"
 "Language-Team: Finnish (Finland) (http://www.transifex.com/projects/p/omeka/language/fi_FI/)\n"
 "MIME-Version: 1.0\n"
@@ -17,80 +17,185 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi_FI\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: views/public/index/index.php:12
 msgid "Your Name: "
-msgstr ""
+msgstr "Nimi: "
 
 #: views/public/index/index.php:19
 msgid "Your Email: "
-msgstr ""
+msgstr "Sähköpostiosoite: "
 
 #: views/public/index/index.php:26
 msgid "Your Message: "
-msgstr ""
+msgstr "Viesti: "
 
 #: views/public/index/index.php:39
 msgid "Send Message"
-msgstr ""
+msgstr "Lähetä"
 
 #: config_form.php:28
 msgid "Forward-To Email"
-msgstr ""
+msgstr "Edelleenlähetysosoite"
 
 #: config_form.php:42
 msgid "Contact Page Title"
-msgstr ""
+msgstr "Yhteydenottosivun otsikko"
 
 #: config_form.php:54
 msgid "Instructions for Contact Page"
-msgstr ""
+msgstr "Ohjeet yhteydenottosivulla"
 
 #: config_form.php:66
 msgid "Add to Main Navigation"
-msgstr ""
+msgstr "Lisää päävalikkoon"
 
 #: config_form.php:79
 msgid "Thank You Page Title"
-msgstr ""
+msgstr "Kiitossivun otsikko"
 
 #: config_form.php:91
 msgid "Thank You Page Message"
-msgstr ""
+msgstr "Kiitossivun sisältö"
 
 #: SimpleContactFormPlugin.php:17
 msgid "Contact Us"
-msgstr ""
+msgstr "Ota yhteyttä"
 
 #: SimpleContactFormPlugin.php:18
 msgid "Please send us your comments and suggestions."
-msgstr ""
+msgstr "Lähetä kommentteja ja palautetta."
 
 #: SimpleContactFormPlugin.php:19
 msgid "Thank You For Your Feedback"
-msgstr ""
-
-#: SimpleContactFormPlugin.php:20
-msgid "We appreciate your comments and suggestions."
-msgstr ""
+msgstr "Kiitos yhteydenotosta."
 
 #: controllers/IndexController.php:53
 msgid "Your CAPTCHA submission was invalid, please try again."
-msgstr ""
+msgstr "CAPTCHA-tehtävän ratkaisu oli virheellinen, yritä uudelleen."
 
 #: controllers/IndexController.php:56
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Sähköpostiosoitteessa on virhe."
 
 #: controllers/IndexController.php:59
 msgid "Please enter a message."
-msgstr ""
+msgstr "Kirjoita viesti."
 
 #: controllers/IndexController.php:78
 #, php-format
 msgid "%s <%s> sent the following message:"
-msgstr ""
+msgstr "%s <%s> lähetti viestin:"
 
 #: controllers/IndexController.php:81
 msgid "A User Has Contacted You"
-msgstr ""
+msgstr "Sivuston käyttäjä on lähettänyt viestin"
+
+#: config_form.php:28
+msgid "You have not entered your"
+msgstr "Et ole syöttänyt"
+
+#: config_form.php:29
+msgid "API keys under"
+msgstr "API-avaimia"
+
+#: config_form.php:29
+msgid "security settings"
+msgstr "turvallisuusasetuksiin"
+
+#: config_form.php:29
+msgid "We recommend adding these keys, or the contact form will be vulnerable to spam."
+msgstr "Recaptchan käyttöönotto on suositeltavaa roskapostitusten estämiseksi."
+
+#: config_form.php:33
+msgid "Reply-From Email"
+msgstr "Vastausosoite"
+
+#: config_form.php:37
+msgid "The address that users can reply to. If blank, your users will not be sent confirmation emails of their submissions."
+msgstr "Osoite johon käyttäjät voivat vastata."
+
+#: config_form.php:48
+msgid "The email address that receives notifications that someone has submitted a message through the contact form. If blank, you will not be forwarded messages from your users."
+msgstr "Ylläpidon sähköpostiosoite johon lähetetään ilmoitus palautelomakkeella lähetetystä viesteistä. Jos osoite on tyhjä, ilmoituksia ei lähetetä."
+
+#: config_form.php:56
+msgid "Email Subject (Admin Notification)"
+msgstr "Ilmoitusviestin otsikko"
+
+#: config_form.php:60
+msgid "The subject line for the email that is sent to the Forward-To email address."
+msgstr "Ylläpitäjälle lähetettävän ilmoitusviestin otsikko."
+
+#: config_form.php:67
+msgid "Email Message (Admin Notification)"
+msgstr "Ilmoitusviestin sisältö"
+
+#: config_form.php:71
+msgid "The beginning of the message that is sent to the Forward-To email address."
+msgstr "Ylläpitäjälle lähetettävän ilmoitusviestin sisältö."
+
+#: config_form.php:78
+msgid "Email Subject (Public Notification)"
+msgstr "Kuittausviestin otsikko"
+
+#: config_form.php:82
+msgid "The subject line of the confirmation email that is sent to users who post messages through the form."
+msgstr "Kuittausviestin otsikko."
+
+#: config_form.php:89
+msgid "Email Message (Public Notification)"
+msgstr "Kuittausviestin sisältö"
+
+#: config_form.php:93
+msgid "The beginning of the confirmation email that is sent to users who post messages through the form."
+msgstr "Kuittausviestin sisältö."
+
+#: config_form.php:104
+msgid "The title of the contact form (not HTML)."
+msgstr "Sivun otsikko (ei HTML-koodia)"
+
+#: config_form.php:114
+msgid "Any specific instructions to add to the contact form."
+msgstr "Yhteydenottosivulla näytettävät lisäohjeet tai muu sisältö."
+
+#: config_form.php:124
+msgid "If checked, add a link to the contact form to the main site navigation."
+msgstr "Valinta lisää linkin yhteydenottolomakkeeseen sivuston päävalikkoon."
+
+#: config_form.php:135
+msgid "The title of the Thank You page (not HTML)."
+msgstr "Sivun otsikko (ei HTML-koodia)"
+
+#: config_form.php:145
+msgid "The text displayed on the Thank You page."
+msgstr "Kiitossivulla näytettävä sisältö."
+
+#: SimpleContactFormPlugin.php:21
+msgid "We appreciate your comments and suggestions."
+msgstr "Kiitos yhteydenotostasi. Otamme tarvittaessa yhteyttä."
+
+#: SimpleContactFormPlugin.php:23
+msgid "A user has sent you the following message:"
+msgstr "Käyttäjän lähettämä viesti:"
+
+#: SimpleContactFormPlugin.php:24
+msgid "Thank You"
+msgstr "Kiitokset"
+
+#: SimpleContactFormPlugin.php:25
+msgid "Thank you for sending us the following message:"
+msgstr "Kiitokset yhteydenotosta. Vastaanotimme viestisi:"
+
+#: views/public/index/index.php:16
+msgid "Your Name:"
+msgstr "Nimi:"
+
+#: views/public/index/index.php:22
+msgid "Your Email:"
+msgstr "Sähköpostiosoite:"
+
+#: views/public/index/index.php:28
+msgid "Your Message:"
+msgstr "Viesti:"

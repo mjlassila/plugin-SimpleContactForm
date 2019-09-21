@@ -19,8 +19,8 @@ $view = get_view();
 ?>
 
 <?php if (!Omeka_Captcha::isConfigured()): ?>
-    <p class="alert">You have not entered your <a href="http://www.google.com/recaptcha/intro/index.html/">reCAPTCHA</a>
-        API keys under <a href="<?php echo url('settings/edit-security#fieldset-captcha'); ?>">security settings</a>. We recommend adding these keys, or the contact form will be vulnerable to spam.</p>
+    <p class="alert"><?php echo __('You have not entered your '); ?><a href="http://www.google.com/recaptcha/intro/index.html/">reCAPTCHA</a>
+        <?php echo __("API keys under"); ?> <a href="<?php echo url('settings/edit-security#fieldset-captcha'); ?>"><?php echo __("security settings"); ?></a>. <?php echo __("We recommend adding these keys, or the contact form will be vulnerable to spam.");?></p>
 <?php endif; ?>
 
 <div class="field">
@@ -29,9 +29,9 @@ $view = get_view();
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
-            The email address that receives notifications that someone has
+            <?php echo __("The email address that receives notifications that someone has
             submitted a message through the contact form. If blank, you will not
-            be forwarded messages from your users.
+            be forwarded messages from your users.");?>
         </p>
         <?php echo $view->formText('forward_to_email', $forward_to_email); ?>
     </div>
@@ -43,7 +43,7 @@ $view = get_view();
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
-            The title of the contact form (not HTML).
+            <?php echo __("The title of the contact form (not HTML).");?>
         </p>
         <?php echo $view->formText('contact_page_title', $contact_page_title); ?>
     </div>
@@ -55,7 +55,7 @@ $view = get_view();
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
-            Any specific instructions to add to the contact form.
+            <?php echo __("Any specific instructions to add to the contact form.");?>
         </p>
         <?php echo $view->formTextarea('contact_page_instructions', $contact_page_instructions, array('rows' => '10', 'cols' => '60', 'class' => array('html-editor'))); ?>
     </div>
@@ -67,8 +67,8 @@ $view = get_view();
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
-            If checked, add a link to the contact form to the main site
-            navigation.
+            <?php echo __("If checked, add a link to the contact form to the main site
+            navigation.");?>
         </p>
         <?php echo $view->formCheckbox('add_to_main_navigation', $add_to_main_navigation, null, array('1', '0')); ?>
     </div>
@@ -80,7 +80,7 @@ $view = get_view();
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
-            The title of the Thank You page (not HTML).
+            <?php echo __("The title of the Thank You page (not HTML).");?>
         </p>
         <?php echo $view->formText('thankyou_page_title', $thankyou_page_title); ?>
     </div>
@@ -92,7 +92,7 @@ $view = get_view();
     </div>
     <div class="inputs five columns omega">
         <p class="explanation">
-            The text displayed on the Thank You page.
+            <?php echo __("The text displayed on the Thank You page.");?>
         </p>
         <?php echo $view->formTextarea('thankyou_page_message', $thankyou_page_message, array('rows' => '10', 'cols' => '60', 'class' => array('html-editor'))); ?>
     </div>
